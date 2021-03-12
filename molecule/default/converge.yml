@@ -18,30 +18,37 @@
   remote_user: root
   become: true
   tasks:
-    - include_role:
+    - name: include role
+      include_role:
         name: python
       tags: python
 
-    - include_role:
+    - name: include role
+      include_role:
         name: ansible
       tags: ansible
 
-    - include_role:
+    - name: include role
+      include_role:
         name: vagrant
       tags: vagrant
 
-    - include_role:
+    - name: include role
+      include_role:
         name: docker
       tags: docker
 
-    - include_role:
+    - name: include role
+      include_role:
         name: libvirt
       tags: libvirt
 
-    - include_role:
+    - name: include role
+      include_role:
         name: virtualbox
       tags: virtualbox
 
-    - include_role:
+    - name: include role
+      include_role:
         name: molecule
       tags: molecule
