@@ -15,6 +15,6 @@
 # limitations under the License.
 
 _pipx:
-  - { state: "inject", args: "--force --pip-args='--upgrade' --include-apps", name: "ansible", dependency: "molecule" }
-  - { state: "inject", args: "--force --pip-args='--upgrade'", name: "ansible", dependency: "molecule-docker" }
-  - { state: "inject", args: "--force --pip-args='--upgrade'", name: "ansible", dependency: "molecule-vagrant" }
+  - { state: "inject", args: "--include-apps", name: "ansible", dependency: "molecule" }
+  - { state: "inject", name: "ansible", dependency: "molecule-docker" }
+  - { state: "inject", name: "ansible", dependency: "molecule-vagrant" }
