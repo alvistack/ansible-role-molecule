@@ -39,7 +39,3 @@ roles:
   - name: libvirt
     src: https://github.com/alvistack/ansible-role-libvirt
     version: develop
-
-  - name: virtualbox
-    src: https://github.com/alvistack/ansible-role-virtualbox
-    version: develop
