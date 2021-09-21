@@ -1,5 +1,7 @@
 # Ansible Role for Molecule
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-molecule/master)](https://gitlab.com/alvistack/ansible-role-molecule/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-molecule.svg)](https://github.com/alvistack/ansible-role-molecule/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-molecule.svg)](https://github.com/alvistack/ansible-role-molecule/blob/master/LICENSE)
