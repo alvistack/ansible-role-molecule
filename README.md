@@ -18,7 +18,7 @@ Following Molecule drivers are supported by this role:
 
 ## Requirements
 
-This role require Ansible community package 4.9 or higher.
+This role require Ansible community package 4.10 or higher.
 
 This role was designed for:
 
