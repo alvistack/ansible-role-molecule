@@ -19,6 +19,6 @@
   become: true
   tasks:
     - name: molecule --version
-      command: molecule --version
+      ansible.builtin.command: molecule --version
       register: result
       changed_when: result is not succeeded
