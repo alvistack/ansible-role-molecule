@@ -20,30 +20,30 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: python
-      tags: python
+        name: alvistack.python
+      tags: alvistack.python
 
     - name: include role
       ansible.builtin.include_role:
-        name: ansible
-      tags: ansible
+        name: alvistack.ansible
+      tags: alvistack.ansible
 
     - name: include role
       ansible.builtin.include_role:
-        name: vagrant
-      tags: vagrant
+        name: alvistack.vagrant
+      tags: alvistack.vagrant
 
     - name: include role
       ansible.builtin.include_role:
-        name: docker
-      tags: docker
+        name: alvistack.docker
+      tags: alvistack.docker
 
     - name: include role
       ansible.builtin.include_role:
-        name: libvirt
-      tags: libvirt
+        name: alvistack.libvirt
+      tags: alvistack.libvirt
 
     - name: include role
       ansible.builtin.include_role:
-        name: molecule
-      tags: molecule
+        name: alvistack.molecule
+      tags: alvistack.molecule
