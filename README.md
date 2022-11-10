@@ -7,14 +7,14 @@
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-molecule.svg)](https://github.com/alvistack/ansible-role-molecule/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.molecule-blue.svg)](https://galaxy.ansible.com/alvistack/molecule)
 
-Ansible Role for Molecule Installation (what the hell is this\!?).
+Ansible Role for Molecule Installation (what the hell is this!?).
 
 [Molecule 3.1.1+](https://github.com/ansible-community/molecule/tags/tag/3.1.1) only keep [Delegated Driver](https://molecule.readthedocs.io/en/latest/configuration.html#delegated) in core, therefore additional drivers support (e.g. docker, podman, vagrant, etc) and corresponding dependencies should be handled manually.
 
 Following Molecule drivers are supported by this role:
 
-  - [Molecule Docker](https://github.com/ansible-community/molecule-docker)
-  - [Molecule Vagrant](https://github.com/ansible-community/molecule-vagrant)
+-   [Molecule Docker](https://github.com/ansible-community/molecule-docker)
+-   [Molecule Vagrant](https://github.com/ansible-community/molecule-vagrant)
 
 ## Requirements
 
@@ -22,12 +22,12 @@ This role require Ansible community package 4.10 or higher.
 
 This role was designed for:
 
-  - Ubuntu 18.04, 20.04, 22.04, 22.10
-  - CentOS 7, 8 Stream, 9 Stream
-  - openSUSE Leap 15.3, Leap 15.4, Tumbleweed
-  - Debian 10, 11, Testing
-  - Fedora 35, 36, 37, Rawhide
-  - RHEL 7, 8, 9
+-   Ubuntu 18.04, 20.04, 22.04, 22.10
+-   CentOS 7, 8 Stream, 9 Stream
+-   openSUSE Leap 15.4, Tumbleweed
+-   Debian 10, 11, Testing
+-   Fedora 36, 37, Rawhide
+-   RHEL 7, 8, 9
 
 ## Role Variables
 
@@ -47,11 +47,11 @@ This role could simply deploy to `localhost` as below:
 
 ## License
 
-  - Code released under [Apache License 2.0](LICENSE)
-  - Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+-   Code released under [Apache License 2.0](LICENSE)
+-   Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 ## Author Information
 
-  - Wong Hoi Sing Edison
-      - <https://twitter.com/hswong3i>
-      - <https://github.com/hswong3i>
+-   Wong Hoi Sing Edison
+    -   <https://twitter.com/hswong3i>
+    -   <https://github.com/hswong3i>
