@@ -33,6 +33,4 @@ _yum_repository:
 
 _yum:
   - { state: "latest", name: "python3-molecule" }
-  - { state: "latest", name: "python3-molecule-docker" }
-  - { state: "latest", name: "python3-molecule-podman" }
-  - { state: "latest", name: "python3-molecule-vagrant" }
+  - { state: "latest", name: "python3-molecule-plugins" }
