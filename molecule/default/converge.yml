@@ -22,29 +22,23 @@
     - name: include role
       ansible.builtin.include_role:
         name: alvistack.python
-      tags: alvistack.python
 
     - name: include role
       ansible.builtin.include_role:
         name: alvistack.ansible
-      tags: alvistack.ansible
 
     - name: include role
       ansible.builtin.include_role:
         name: alvistack.vagrant
-      tags: alvistack.vagrant
 
     - name: include role
       ansible.builtin.include_role:
         name: alvistack.docker
-      tags: alvistack.docker
 
     - name: include role
       ansible.builtin.include_role:
         name: alvistack.libvirt
-      tags: alvistack.libvirt
 
     - name: include role
       ansible.builtin.include_role:
         name: alvistack.molecule
-      tags: alvistack.molecule
